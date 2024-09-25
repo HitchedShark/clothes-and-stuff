@@ -1,0 +1,44 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+.vs
+
+# Compiled output
+e-commerce/dist
+e-commerce/tmp
+e-commerce/out-tsc
+e-commerce/bazel-out
+
+# Node
+e-commerce/node_modules
+e-commerce/npm-debug.log
+e-commerce/yarn-error.log
+
+# IDEs and editors
+.idea/
+e-commerce/.project
+e-commerce/.classpath
+e-commerce/.c9/
+e-commerce/*.launch
+e-commerce/.settings/
+e-commerce/*.sublime-workspace
+
+# Visual Studio Code
+e-commerce/.vscode/*
+e-commerce/!.vscode/settings.json
+e-commerce/!.vscode/tasks.json
+e-commerce/!.vscode/launch.json
+e-commerce/!.vscode/extensions.json
+e-commerce/.history/*
+
+# Miscellaneous
+e-commerce/.angular/cache
+e-commerce/.sass-cache/
+e-commerce/connect.lock
+e-commerce/coverage
+e-commerce/libpeerconnection.log
+e-commerce/testem.log
+e-commerce/typings
+
+# System files
+e-commerce/.DS_Store
+e-commerce/Thumbs.db
